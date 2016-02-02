@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Doge addon for Tilescreen",
+  "description": "Such Awesome addon for Tilescreen",
+  "author": "leandro713",
+
+  "content_scripts": [{
+    "matches": "app://tilescreen.leandro.org/index.html",
+    "css": ["style/doge-tilescreen.css"],
+    "js": ["js/index.js"]
+  }],
+
+  "icons":
+  {
+    "60":   "/icons/doge-60.png",
+    "128":  "/icons/doge-128.png"
+  }
+}
